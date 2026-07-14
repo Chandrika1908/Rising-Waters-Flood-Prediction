@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Login</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='main.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">🌊</div>
+
+<h1>Welcome Back</h1>
+
+<p>
+
+Login to continue flood prediction
+
+</p>
+
+<form method="POST">
+
+<input
+
+type="email"
+
+name="email"
+
+placeholder="📧 Email Address"
+
+required>
+
+<input
+
+type="password"
+
+name="password"
+
+placeholder="🔒 Password"
+
+required>
+
+<button>
+
+Login
+
+</button>
+
+</form>
+
+<br>
+
+<p>
+
+New User?
+
+</p>
+
+<a href="/register">
+
+<button>
+
+Create Account
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>

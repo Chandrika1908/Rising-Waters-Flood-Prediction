@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='main.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">🌊</div>
+
+<h1>Rising Waters</h1>
+
+<h2>Hello, {{name}} 👋</h2>
+
+<p>
+
+Machine Learning Flood Monitoring Dashboard
+
+</p>
+
+<div class="card">
+
+<a href="/Predict">
+
+<button>
+
+🌧 Predict Flood
+
+</button>
+
+</a>
+
+<br><br>
+
+<a href="/history">
+
+<button>
+
+📊 Prediction History
+
+</button>
+
+</a>
+
+<br><br>
+
+<a href="/logout">
+
+<button>
+
+🚪 Logout
+
+</button>
+
+</a>
+
+</div>
+
+<div class="footer">
+
+Team Rising Waters
+
+</div>
+
+</div>
+
+</body>
+
+</html>

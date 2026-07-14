@@ -1,0 +1,35 @@
+<table>
+
+<tr>
+
+<th>Date</th>
+
+<th>Temp</th>
+
+<th>Humidity</th>
+
+<th>Annual</th>
+
+<th>Result</th>
+
+</tr>
+
+{% for row in history %}
+
+<tr>
+
+<td>{{row.prediction_date}}</td>
+
+<td>{{row.temp}}</td>
+
+<td>{{row.humidity}}</td>
+
+<td>{{row.annual}}</td>
+
+<td>{{row.prediction}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>

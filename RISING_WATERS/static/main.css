@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f4c75,#3282b8,#bbe1fa);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:500px;
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+    text-align:center;
+}
+
+.logo{
+    font-size:55px;
+}
+
+h1{
+    color:#0f4c75;
+    margin:10px 0;
+}
+
+h2{
+    color:#444;
+    margin-bottom:20px;
+}
+
+p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+input,select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #bbb;
+    border-radius:8px;
+    font-size:15px;
+}
+
+input:focus,select:focus{
+    outline:none;
+    border:2px solid #3282b8;
+}
+
+button{
+    width:100%;
+    padding:13px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background:#0f4c75;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#3282b8;
+}
+
+a{
+    text-decoration:none;
+}
+
+.card{
+    background:#f7f7f7;
+    border-radius:12px;
+    padding:20px;
+    margin-top:20px;
+}
+
+.success{
+    color:green;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.danger{
+    color:red;
+    font-size:28px;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#0f4c75;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.footer{
+    margin-top:20px;
+    font-size:13px;
+    color:#666;
+}
+.logo{
+
+font-size:70px;
+
+margin-bottom:10px;
+
+animation:float 3s infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+.card{
+
+background:#f2f8fc;
+
+padding:25px;
+
+border-radius:15px;
+
+margin-top:20px;
+
+}
+
+button{
+
+font-weight:bold;
+
+letter-spacing:1px;
+
+}
+
+button:hover{
+
+transform:scale(1.03);
+
+}
+
+.container{
+
+animation:fade 1s;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}

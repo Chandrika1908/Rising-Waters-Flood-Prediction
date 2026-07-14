@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>No Flood</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',filename='main.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">✅</div>
+
+<h1 class="success">
+
+NO FLOOD RISK
+
+</h1>
+
+<h2>
+
+Flood Probability
+
+{{probability}} %
+
+</h2>
+
+<p>
+
+Current weather conditions are safe.
+
+</p>
+
+<div class="card">
+
+✔ No immediate action required.<br><br>
+
+✔ Continue monitoring weather updates.<br><br>
+
+✔ Stay informed through official alerts.
+
+</div>
+
+<br>
+
+<a href="/dashboard">
+
+<button>
+
+Dashboard
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
