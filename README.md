@@ -206,9 +206,3 @@ Email/SMS Flood Alerts
 Live Rainfall Data
 
 ---
-
-## Developed By
-
-Chandrika Talluri
-
-Foundry AI Internship 2026
